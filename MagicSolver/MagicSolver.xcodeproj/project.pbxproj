@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1996A3F21766673400D8A91A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1996A3F11766673400D8A91A /* UIKit.framework */; };
+		1996A3F41766673400D8A91A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1996A3F31766673400D8A91A /* Foundation.framework */; };
+		1996A3F61766673400D8A91A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1996A3F51766673400D8A91A /* CoreGraphics.framework */; };
+		1996A3FC1766673400D8A91A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1996A3FA1766673400D8A91A /* InfoPlist.strings */; };
+		1996A3FE1766673400D8A91A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1996A3FD1766673400D8A91A /* main.m */; };
+		1996A4021766673400D8A91A /* MSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1996A4011766673400D8A91A /* MSAppDelegate.m */; };
+		1996A4041766673400D8A91A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1996A4031766673400D8A91A /* Default.png */; };
+		1996A4061766673400D8A91A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1996A4051766673400D8A91A /* Default@2x.png */; };
+		1996A4081766673400D8A91A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1996A4071766673400D8A91A /* Default-568h@2x.png */; };
+		1996A40B1766673400D8A91A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1996A4091766673400D8A91A /* MainStoryboard.storyboard */; };
+		1996A4161766673400D8A91A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1996A4151766673400D8A91A /* SenTestingKit.framework */; };
+		1996A4171766673400D8A91A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1996A3F11766673400D8A91A /* UIKit.framework */; };
+		1996A4181766673400D8A91A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1996A3F31766673400D8A91A /* Foundation.framework */; };
+		1996A4201766673400D8A91A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1996A41E1766673400D8A91A /* InfoPlist.strings */; };
+		1996A4231766673400D8A91A /* MagicSolverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1996A4221766673400D8A91A /* MagicSolverTests.m */; };
+		1996A42E1766678500D8A91A /* MSCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1996A42D1766678500D8A91A /* MSCalculator.m */; };
+		1996A42F1766678500D8A91A /* MSCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1996A42D1766678500D8A91A /* MSCalculator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1996A4191766673400D8A91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1996A3E61766673400D8A91A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1996A3ED1766673400D8A91A;
+			remoteInfo = MagicSolver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1996A3EE1766673400D8A91A /* MagicSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1996A3F11766673400D8A91A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1996A3F31766673400D8A91A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1996A3F51766673400D8A91A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1996A3F91766673400D8A91A /* MagicSolver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicSolver-Info.plist"; sourceTree = "<group>"; };
+		1996A3FB1766673400D8A91A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1996A3FD1766673400D8A91A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1996A3FF1766673400D8A91A /* MagicSolver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicSolver-Prefix.pch"; sourceTree = "<group>"; };
+		1996A4001766673400D8A91A /* MSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAppDelegate.h; sourceTree = "<group>"; };
+		1996A4011766673400D8A91A /* MSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAppDelegate.m; sourceTree = "<group>"; };
+		1996A4031766673400D8A91A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1996A4051766673400D8A91A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1996A4071766673400D8A91A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1996A40A1766673400D8A91A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1996A4141766673400D8A91A /* MagicSolverTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicSolverTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1996A4151766673400D8A91A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1996A41D1766673400D8A91A /* MagicSolverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicSolverTests-Info.plist"; sourceTree = "<group>"; };
+		1996A41F1766673400D8A91A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1996A4211766673400D8A91A /* MagicSolverTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagicSolverTests.h; sourceTree = "<group>"; };
+		1996A4221766673400D8A91A /* MagicSolverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicSolverTests.m; sourceTree = "<group>"; };
+		1996A42C1766678500D8A91A /* MSCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCalculator.h; sourceTree = "<group>"; };
+		1996A42D1766678500D8A91A /* MSCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCalculator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1996A3EB1766673400D8A91A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1996A3F21766673400D8A91A /* UIKit.framework in Frameworks */,
+				1996A3F41766673400D8A91A /* Foundation.framework in Frameworks */,
+				1996A3F61766673400D8A91A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1996A4101766673400D8A91A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1996A4161766673400D8A91A /* SenTestingKit.framework in Frameworks */,
+				1996A4171766673400D8A91A /* UIKit.framework in Frameworks */,
+				1996A4181766673400D8A91A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1996A3E51766673400D8A91A = {
+			isa = PBXGroup;
+			children = (
+				1996A3F71766673400D8A91A /* MagicSolver */,
+				1996A41B1766673400D8A91A /* MagicSolverTests */,
+				1996A3F01766673400D8A91A /* Frameworks */,
+				1996A3EF1766673400D8A91A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1996A3EF1766673400D8A91A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1996A3EE1766673400D8A91A /* MagicSolver.app */,
+				1996A4141766673400D8A91A /* MagicSolverTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1996A3F01766673400D8A91A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1996A3F11766673400D8A91A /* UIKit.framework */,
+				1996A3F31766673400D8A91A /* Foundation.framework */,
+				1996A3F51766673400D8A91A /* CoreGraphics.framework */,
+				1996A4151766673400D8A91A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1996A3F71766673400D8A91A /* MagicSolver */ = {
+			isa = PBXGroup;
+			children = (
+				1996A4001766673400D8A91A /* MSAppDelegate.h */,
+				1996A4011766673400D8A91A /* MSAppDelegate.m */,
+				1996A4091766673400D8A91A /* MainStoryboard.storyboard */,
+				1996A3F81766673400D8A91A /* Supporting Files */,
+				1996A42C1766678500D8A91A /* MSCalculator.h */,
+				1996A42D1766678500D8A91A /* MSCalculator.m */,
+			);
+			path = MagicSolver;
+			sourceTree = "<group>";
+		};
+		1996A3F81766673400D8A91A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1996A3F91766673400D8A91A /* MagicSolver-Info.plist */,
+				1996A3FA1766673400D8A91A /* InfoPlist.strings */,
+				1996A3FD1766673400D8A91A /* main.m */,
+				1996A3FF1766673400D8A91A /* MagicSolver-Prefix.pch */,
+				1996A4031766673400D8A91A /* Default.png */,
+				1996A4051766673400D8A91A /* Default@2x.png */,
+				1996A4071766673400D8A91A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1996A41B1766673400D8A91A /* MagicSolverTests */ = {
+			isa = PBXGroup;
+			children = (
+				1996A4211766673400D8A91A /* MagicSolverTests.h */,
+				1996A4221766673400D8A91A /* MagicSolverTests.m */,
+				1996A41C1766673400D8A91A /* Supporting Files */,
+			);
+			path = MagicSolverTests;
+			sourceTree = "<group>";
+		};
+		1996A41C1766673400D8A91A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1996A41D1766673400D8A91A /* MagicSolverTests-Info.plist */,
+				1996A41E1766673400D8A91A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1996A3ED1766673400D8A91A /* MagicSolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1996A4261766673400D8A91A /* Build configuration list for PBXNativeTarget "MagicSolver" */;
+			buildPhases = (
+				1996A3EA1766673400D8A91A /* Sources */,
+				1996A3EB1766673400D8A91A /* Frameworks */,
+				1996A3EC1766673400D8A91A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicSolver;
+			productName = MagicSolver;
+			productReference = 1996A3EE1766673400D8A91A /* MagicSolver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1996A4131766673400D8A91A /* MagicSolverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1996A4291766673400D8A91A /* Build configuration list for PBXNativeTarget "MagicSolverTests" */;
+			buildPhases = (
+				1996A40F1766673400D8A91A /* Sources */,
+				1996A4101766673400D8A91A /* Frameworks */,
+				1996A4111766673400D8A91A /* Resources */,
+				1996A4121766673400D8A91A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1996A41A1766673400D8A91A /* PBXTargetDependency */,
+			);
+			name = MagicSolverTests;
+			productName = MagicSolverTests;
+			productReference = 1996A4141766673400D8A91A /* MagicSolverTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1996A3E61766673400D8A91A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Lovastyik;
+			};
+			buildConfigurationList = 1996A3E91766673400D8A91A /* Build configuration list for PBXProject "MagicSolver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1996A3E51766673400D8A91A;
+			productRefGroup = 1996A3EF1766673400D8A91A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1996A3ED1766673400D8A91A /* MagicSolver */,
+				1996A4131766673400D8A91A /* MagicSolverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1996A3EC1766673400D8A91A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1996A3FC1766673400D8A91A /* InfoPlist.strings in Resources */,
+				1996A4041766673400D8A91A /* Default.png in Resources */,
+				1996A4061766673400D8A91A /* Default@2x.png in Resources */,
+				1996A4081766673400D8A91A /* Default-568h@2x.png in Resources */,
+				1996A40B1766673400D8A91A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1996A4111766673400D8A91A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1996A4201766673400D8A91A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1996A4121766673400D8A91A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1996A3EA1766673400D8A91A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1996A3FE1766673400D8A91A /* main.m in Sources */,
+				1996A4021766673400D8A91A /* MSAppDelegate.m in Sources */,
+				1996A42E1766678500D8A91A /* MSCalculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1996A40F1766673400D8A91A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1996A4231766673400D8A91A /* MagicSolverTests.m in Sources */,
+				1996A42F1766678500D8A91A /* MSCalculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1996A41A1766673400D8A91A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1996A3ED1766673400D8A91A /* MagicSolver */;
+			targetProxy = 1996A4191766673400D8A91A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1996A3FA1766673400D8A91A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1996A3FB1766673400D8A91A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1996A4091766673400D8A91A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1996A40A1766673400D8A91A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		1996A41E1766673400D8A91A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1996A41F1766673400D8A91A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1996A4241766673400D8A91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1996A4251766673400D8A91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1996A4271766673400D8A91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicSolver/MagicSolver-Prefix.pch";
+				INFOPLIST_FILE = "MagicSolver/MagicSolver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1996A4281766673400D8A91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicSolver/MagicSolver-Prefix.pch";
+				INFOPLIST_FILE = "MagicSolver/MagicSolver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1996A42A1766673400D8A91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MagicSolver.app/MagicSolver";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicSolver/MagicSolver-Prefix.pch";
+				INFOPLIST_FILE = "MagicSolverTests/MagicSolverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1996A42B1766673400D8A91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MagicSolver.app/MagicSolver";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicSolver/MagicSolver-Prefix.pch";
+				INFOPLIST_FILE = "MagicSolverTests/MagicSolverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1996A3E91766673400D8A91A /* Build configuration list for PBXProject "MagicSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1996A4241766673400D8A91A /* Debug */,
+				1996A4251766673400D8A91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1996A4261766673400D8A91A /* Build configuration list for PBXNativeTarget "MagicSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1996A4271766673400D8A91A /* Debug */,
+				1996A4281766673400D8A91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1996A4291766673400D8A91A /* Build configuration list for PBXNativeTarget "MagicSolverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1996A42A1766673400D8A91A /* Debug */,
+				1996A42B1766673400D8A91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1996A3E61766673400D8A91A /* Project object */;
+}
